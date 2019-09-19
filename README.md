@@ -13,7 +13,7 @@ forked from [NicoNico SPEENYA](https://github.com/chimerast/niconico-speenya)
 
 ## Screen Shot
 
-![クライアント](docs/client.png "クライアント")
+<img src="docs/client.png" alt="クライアント" width="50%">
 
 ## Lisence
 
