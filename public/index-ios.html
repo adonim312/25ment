@@ -1,151 +1,125 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="25ment" />
+    <link rel="apple-touch-icon" href="logo.png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>25ment - FGMF</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-    content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="25ment">
-  <link rel="apple-touch-icon" href="logo.png">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/index.css">
-  <title>25ment - FGMF</title>
-</head>
+  <body>
+    <main class="container">
+      <h5>スタンプ<a href="index.html" class="pull-right">スタンプの選択方法を変える</a></h5>
+      <div class="form-group input-group">
+        <select class="form-control flipsnap send1">
+          <option value="stamp_01">LIVE</option>
+          <option value="stamp_02">GOOD</option>
+          <option value="stamp_03">COOL</option>
+          <option value="stamp_04">最高</option>
+          <option value="stamp_05">大好き</option>
+          <option value="stamp_06">かっこいい</option>
+          <option value="stamp_07">ありがとう</option>
+          <option value="stamp_08">ハンパないって！</option>
+          <option value="stamp_09">GREAT</option>
+          <option value="stamp_10">神ゲー</option>
+          <option value="stamp_11">神曲</option>
+          <option value="stamp_12">泣ける</option>
+          <option value="stamp_13">エモい</option>
+          <option value="stamp_14">初見です</option>
+          <option value="stamp_15">感無量</option>
+          <option value="stamp_16">涙腺崩壊</option>
+          <option value="stamp_17">これからも応援します！</option>
+          <option value="stamp_18">わくわく</option>
+        </select>
+        <span class="input-group-btn">
+          <button class="btn btn-primary"><i class="fa fa-paper-plane"></i></button>
+        </span>
+      </div>
+      <div class="form-group input-group">
+        <select class="form-control flipsnap send2">
+          <option value="stamp_19">れとろげ！の法則が乱れる！</option>
+          <option value="stamp_20">「きけ」「しらべろ」</option>
+          <option value="stamp_21">鉄アレイ</option>
+          <option value="stamp_22">ちくわ</option>
+          <option value="stamp_23">16連射</option>
+          <option value="stamp_24">ⅡとSと剣</option>
+          <option value="stamp_25">クリスタル</option>
+          <option value="stamp_26">蜂</option>
+          <option value="stamp_27">石オノ</option>
+          <option value="stamp_28">れとろげ！Ⅴ祭 ～まつり～</option>
+          <option value="stamp_29">「高」</option>
+          <option value="stamp_30">「橋」</option>
+          <option value="stamp_31">「名」</option>
+          <option value="stamp_32">「人」</option>
+          <option value="stamp_33">かっこいい</option>
+          <option value="stamp_34">おまわりさーん！</option>
+          <option value="stamp_35">れとろげ！最高！</option>
+        </select>
+        <span class="input-group-btn">
+          <button class="btn btn-primary"><i class="fa fa-paper-plane"></i></button>
+        </span>
+      </div>
 
-<body>
-  <main class="container">
-    <h5>スタンプ<a href="index.html" class="pull-right">スタンプの選択方法を変える</a></h5>
-    <div class="form-group input-group">
-      <select class="form-control flipsnap send1">
-        <option value="stamp_01">LIVE</option>
-        <option value="stamp_02">GOOD</option>
-        <option value="stamp_03">COOL</option>
-        <option value="stamp_04">最高</option>
-        <option value="stamp_05">大好き</option>
-        <option value="stamp_06">かっこいい</option>
-        <option value="stamp_07">ありがとう</option>
-        <option value="stamp_08">ハンパないって！</option>
-        <option value="stamp_09">GREAT</option>
-        <option value="stamp_10">神ゲー</option>
-        <option value="stamp_11">神曲</option>
-        <option value="stamp_12">泣ける</option>
-        <option value="stamp_13">エモい</option>
-        <option value="stamp_14">初見です</option>
-        <option value="stamp_15">感無量</option>
-        <option value="stamp_16">涙腺崩壊</option>
-        <option value="stamp_17">これからも応援します！</option>
-        <option value="stamp_18">わくわく</option>
-      </select>
-      <span class="input-group-btn">
-        <button class="btn btn-primary"><i class="fa fa-paper-plane"></i></button>
-      </span>
-    </div>
-    <div class="form-group input-group">
-      <select class="form-control flipsnap send2">
-        <option value="stamp_19">れとろげ！の法則が乱れる！</option>
-        <option value="stamp_20">「きけ」「しらべろ」</option>
-        <option value="stamp_21">鉄アレイ</option>
-        <option value="stamp_22">ちくわ</option>
-        <option value="stamp_23">16連射</option>
-        <option value="stamp_24">ⅡとSと剣</option>
-        <option value="stamp_25">クリスタル</option>
-        <option value="stamp_26">蜂</option>
-        <option value="stamp_27">石オノ</option>
-        <option value="stamp_28">れとろげ！Ⅴ祭 ～まつり～</option>
-        <option value="stamp_29">「高」</option>
-        <option value="stamp_30">「橋」</option>
-        <option value="stamp_31">「名」</option>
-        <option value="stamp_32">「人」</option>
-        <option value="stamp_33">かっこいい</option>
-        <option value="stamp_34">おまわりさーん！</option>
-        <option value="stamp_35">れとろげ！最高！</option>
-      </select>
-      <span class="input-group-btn">
-        <button class="btn btn-primary"><i class="fa fa-paper-plane"></i></button>
-      </span>
-    </div>
+      <h5>コメント</h5>
+      <form class="form-horizontal" style="margin: 16px" role="form" action="/comment" method="get" onsubmit="if (this.body.value == '') return false; handleSubmit(this); this.body.value = ''; return false;">
+        <div class="form-group">
+          <div class="input-group">
+            <input type="text" name="body" maxlength="60" class="form-control" placeholder="コメントを入力してください" />
+            <span class="input-group-btn">
+              <button class="btn btn-primary" type="submit"><i class="fa fa-comment"></i></button>
+            </span>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="input-group btn-group size" data-toggle="buttons">
+            <label class="btn btn-default"> <input type="radio" name="size" class="needsclick" value="128" /> 大 </label>
+            <label class="btn btn-default active"> <input type="radio" name="size" class="needsclick" value="92" selected /> 中 </label>
+            <label class="btn btn-default"> <input type="radio" name="size" class="needsclick" value="64" /> 小 </label>
+          </div>
+          <div class="input-group btn-group speed" data-toggle="buttons">
+            <label class="btn btn-default"> <input type="radio" name="duration" class="needsclick" value="4500" /> 遅 </label>
+            <label class="btn btn-default active"> <input type="radio" name="duration" class="needsclick" value="3000" selected /> 中 </label>
+            <label class="btn btn-default"> <input type="radio" name="duration" class="needsclick" value="1500" /> 速 </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="input-group btn-group color" data-toggle="buttons">
+            <label class="btn btn-default active"> <input type="radio" name="color" class="needsclick" value="black" selected /> 黒 </label>
+            <label class="btn btn-default"> <input type="radio" name="color" class="needsclick" value="red" /> 赤 </label>
+            <label class="btn btn-default"> <input type="radio" name="color" class="needsclick" value="yellow" /> 黄 </label>
+            <label class="btn btn-default"> <input type="radio" name="color" class="needsclick" value="green" /> 緑 </label>
+          </div>
+        </div>
+      </form>
 
-    <h5>コメント</h5>
-    <form class="form-horizontal" style="margin: 16px" role="form" action="/comment" method="get"
-      onsubmit="if (this.body.value == '') return false; handleSubmit(this); this.body.value = ''; return false;">
+      <h5>スマリウム</h5>
       <div class="form-group">
-        <div class="input-group">
-          <input type="text" name="body" maxlength="60" class="form-control" placeholder="コメントを入力してください">
-          <span class="input-group-btn">
-            <button class="btn btn-primary" type="submit"><i class="fa fa-comment"></i></button>
-          </span>
+        <div class="input-group btn-group smarium">
+          <button class="btn btn-default" data-color="cyan">青</button>
+          <button class="btn btn-default" data-color="yellow">黄</button>
+          <button class="btn btn-default" data-color="magenta">桃</button>
+          <button class="btn btn-default" data-color="green">緑</button>
+          <button class="btn btn-default" data-color="random">複</button>
         </div>
       </div>
-      <div class="form-group">
-        <div class="input-group btn-group size" data-toggle="buttons">
-          <label class="btn btn-default">
-            <input type="radio" name="size" class="needsclick" value="128"> 大
-          </label>
-          <label class="btn btn-default active">
-            <input type="radio" name="size" class="needsclick" value="92" selected> 中
-          </label>
-          <label class="btn btn-default">
-            <input type="radio" name="size" class="needsclick" value="64"> 小
-          </label>
-        </div>
-        <div class="input-group btn-group speed" data-toggle="buttons">
-          <label class="btn btn-default">
-            <input type="radio" name="duration" class="needsclick" value="4500"> 遅
-          </label>
-          <label class="btn btn-default active">
-            <input type="radio" name="duration" class="needsclick" value="3000" selected> 中
-          </label>
-          <label class="btn btn-default">
-            <input type="radio" name="duration" class="needsclick" value="1500"> 速
-          </label>
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="input-group btn-group color" data-toggle="buttons">
-          <label class="btn btn-default active">
-            <input type="radio" name="color" class="needsclick" value="black" selected> 黒
-          </label>
-          <label class="btn btn-default">
-            <input type="radio" name="color" class="needsclick" value="red"> 赤
-          </label>
-          <label class="btn btn-default">
-            <input type="radio" name="color" class="needsclick" value="yellow"> 黄
-          </label>
-          <label class="btn btn-default">
-            <input type="radio" name="color" class="needsclick" value="green"> 緑
-          </label>
-        </div>
-      </div>
-    </form>
 
-    <h5>スマリウム</h5>
-    <div class="form-group">
-      <div class="input-group btn-group smarium">
-        <button class="btn btn-default" data-color="cyan">青</button>
-        <button class="btn btn-default" data-color="yellow">黄</button>
-        <button class="btn btn-default" data-color="magenta">桃</button>
-        <button class="btn btn-default" data-color="green">緑</button>
-        <button class="btn btn-default" data-color="random">複</button>
-      </div>
+      <p style="text-align: right">
+        <a href="https://forms.gle/uhDE5ijqZ7SDNHK59" target="_blank">アンケートにご協力くださいッ！</a>
+      </p>
+    </main>
+    <div class="footer">
+      <div class="container text-right" style="border-top: 1px solid #ddd"> 25ment ©2016-2019 <a href="https://twitter.com/fgmf_jp" target="_blank">@fgmf_jp</a> </div>
     </div>
 
-    <p style="text-align: right;">
-      <a href="https://forms.gle/5tsebmTQ3axLZp859" target="_blank">アンケートにご協力くださいッ！</a>
-    </p>
-  </main>
-  <div class="footer">
-    <div class="container text-right" style="border-top: 1px solid #ddd;">
-      25ment ©2016-2019 <a href="https://twitter.com/fgmf_jp" target="_blank">@fgmf_jp</a>
-    </div>
-  </div>
-
-  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"></script>
-  <script src="js/index.js"></script>
-</body>
-
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
 </html>
